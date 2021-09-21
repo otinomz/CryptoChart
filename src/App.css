@@ -24,17 +24,18 @@ a:hover{
 
 .navbar{
     flex: 0.2;
-    background-color: rgb(0, 21, 41);
+    background-color: #f0f2f5;
 }
 
 .main{
     flex: 0.8;
-    width: 100%;
-    
+    width: 100%; 
 }
+
 .routes{
     padding: 20px;
 }
+
 .nav-container{
     position: fixed;
     left: 0;
@@ -373,9 +374,14 @@ width: 70%;
 }
 
 .footer {
-    background-color: #001529;
+    background-color: #1f3244;
     display: flex;
     flex-direction: column;
+    /* position: fixed;
+    width: 100%;
+    text-align: center;
+    left: 0px; */
+    bottom: 0;
     padding: 20px;
     align-items: center;
 }
